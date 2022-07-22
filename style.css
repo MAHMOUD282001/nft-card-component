@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.content{
+    position: relative;
+    width: 300px;
+    height: 520px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.content img{
+    width: 87%;
+    margin-top: 20px;
+}
+
+.content .inner-content{
+    width: 87%;
+    margin-top: 25px;
+    
+}
+
+.content .inner-content h4{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+
+.content .inner-content p{
+    margin-top: 20px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%)
+}
+
+.content .inner-content div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.content .inner-content div.first-div{
+    border-bottom: 1px solid #fff;
+    
+}
+
+.content .inner-content div.first-div span{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+
+.content .inner-content div.second-div{
+    margin-top: 0;
+    justify-content: flex-start;
+    
+}
+
+.content .inner-content div.second-div img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.content .inner-content div.second-div p{
+    font-size: 14px;
+}
+
+.content .inner-content div.second-div span{
+    color: hsl(215, 51%, 70%);
+}
+
